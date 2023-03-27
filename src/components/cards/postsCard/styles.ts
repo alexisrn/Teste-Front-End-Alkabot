@@ -83,7 +83,7 @@ export const Container = styled.div`
   }
 
   @media (max-width: 730px) {
-    height: 250px;
+    height: 300px;
     span {
       display: none;
     }
