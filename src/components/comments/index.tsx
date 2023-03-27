@@ -37,10 +37,10 @@ export const Comments = ({ id }: any) => {
           <S.Btn>Comment</S.Btn>
         </S.InputCtn>
         {comments &&
-          comments.map((comment, index) => {
+          comments.map((comment: RespoDataComent) => {
             return (
               <CommentsCard
-                key={index}
+                key={comment.id}
                 id={comment.id}
                 name={comment.name}
                 email={comment.email}
