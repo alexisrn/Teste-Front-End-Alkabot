@@ -1,6 +1,6 @@
 import * as S from "./styles";
 import { useState } from "react";
-import { BiSearch } from "react-icons/Bi";
+// import { BiSearch } from "react-icons/Bi";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { Link, useNavigate } from "react-router-dom";
 import { SideBar } from "../../components/sidebar";
@@ -42,7 +42,8 @@ export const Header = () => {
 
           <form onSubmit={handleSubmit}>
             <button onSubmit={handleSubmit}>
-              <BiSearch />
+              {/* <BiSearch /> */}
+              Search
             </button>
             <S.Input
               type="text"

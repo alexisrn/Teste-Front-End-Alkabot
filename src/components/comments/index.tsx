@@ -37,7 +37,7 @@ export const Comments = ({ id }: any) => {
           <S.Btn>Comment</S.Btn>
         </S.InputCtn>
         {comments &&
-          comments.map((comment: RespoDataComent) => {
+          comments.map((comment: any) => {
             return (
               <CommentsCard
                 key={comment.id}

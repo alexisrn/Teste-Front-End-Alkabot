@@ -52,7 +52,7 @@ export const Container = styled.div`
     cursor: pointer;
     height: 30px;
     width: 35px;
-    font-size: 18px;
+    font-size: 10px;
 
     display: flex;
     justify-content: center;
