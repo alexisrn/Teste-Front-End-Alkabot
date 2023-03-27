@@ -13,6 +13,7 @@ export const Container = styled.div`
 
   @media (max-width: 750px) {
     width: 300px;
+    height: 200px;
     margin-bottom: 50px;
   }
 `;
@@ -66,6 +67,6 @@ export const Email = styled.div`
 export const Body = styled.div`
   font-size: 14px;
   @media (max-width: 750px) {
-    font-size: 12px;
+    font-size: 10px;
   }
 `;
