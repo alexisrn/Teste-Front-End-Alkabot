@@ -13,7 +13,7 @@ interface RespoDataComent {
 const urlPosts = "https://jsonplaceholder.typicode.com/posts";
 
 export const Comments = ({ id }: any) => {
-  const [comments, setComments] = useState<RespoDataComent>();
+  const [comments, setComments] = useState<RespoDataComent[]>();
 
   const getComments = async (url: any) => {
     const res = await fetch(url);
@@ -26,6 +26,8 @@ export const Comments = ({ id }: any) => {
     const itemUrl = `${urlPosts}/${id}/comments`;
     getComments(itemUrl);
   }, []);
+
+  console.log(comments);
 
   return (
     <>
