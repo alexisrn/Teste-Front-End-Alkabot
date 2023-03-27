@@ -54,7 +54,7 @@ export const Container = styled.div`
 
     .text {
       font-size: 12px;
-      width: 90%;
+      width: 100%;
     }
 
     .showMore {

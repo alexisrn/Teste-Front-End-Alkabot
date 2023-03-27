@@ -68,5 +68,6 @@ export const Body = styled.div`
   font-size: 14px;
   @media (max-width: 750px) {
     font-size: 10px;
+    width: 100%;
   }
 `;
